@@ -39,7 +39,7 @@ html::-webkit-scrollbar-thumb {
 }
 body {
     background: #111;
-    overflow: hidden;
+    overflow-x: hidden;
     padding-left: 35rem;
 }
 section{
@@ -82,15 +82,15 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    margin: .7rem solid var(--yellow);
+    border: .7rem solid var(--yellow);
 }
 
- header .user .name {
+ header .user .name{
     font-size: 3.5rem;
     color: #ffffff;
 }
 
-header .user .post {
+header .user .post{
     font-size: 2rem;
     color: #eee;
 }
@@ -145,6 +145,9 @@ header .navbar ul li a:hover{
     font-size:5rem ;
     color: #fff;
 }
+.home h1 span{
+    color: var(--yellow);
+}
 .home p{
     font-size: 2rem;
     color: #eee;
@@ -170,7 +173,7 @@ header .navbar ul li a:hover{
         display: block;
     }
 
-    header .toggle{
+    header.toggle{
         left: 0%;
     }
     body{
