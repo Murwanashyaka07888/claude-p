@@ -48,7 +48,7 @@ section{
 }
 .btn{
     padding: .7rem 3rem;
-    background: #333;
+    background: #a43131;
     color: rgb(216, 210, 210);
     cursor: pointer;
     margin-top: 1rem;
@@ -99,7 +99,7 @@ header .user img{
 
  header .user .name{
     font-size: 3.5rem;
-    color: #ffffff;
+    color: #edc2c2;
 }
 
 header .user .post{
@@ -121,7 +121,7 @@ header .navbar ul li a{
     padding: 1rem;
     margin: 1.5rem 0;
     background: #333;
-    color: #fff;
+    color: #f4eded;
     font-size:2rem; 
     border-radius: 5rem;
 }
@@ -184,7 +184,7 @@ header .navbar ul li a:hover{
     font-weight: normal;
 }
 .about .row .info h3 span{
-  color: #eee;
+  color: #eee6e6;
   padding: 0 .5rem;  
 }
 .about .row .counter{
